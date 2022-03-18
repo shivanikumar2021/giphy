@@ -1,0 +1,12 @@
+<div class="container">
+  <h1 class="text-center display-2 mt-3"><span class="text-danger">Angular 6</span> GIPHY API Search</h1>
+  <form (ngSubmit)="search(userInput)">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search here!" [(ngModel)]="ui.userInput" name="userInput">
+    </div>
+    <button type="submit" class="btn btn-primary mb-3">Search all the gifs!</button>
+    <img src="../../../assets/Poweredby_100px-Black_VertLogo.png" alt="">
+    
+    
+  </form>
+</div>

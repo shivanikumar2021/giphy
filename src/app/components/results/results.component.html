@@ -1,0 +1,9 @@
+<div class= "container-fluid card-columns">
+  <ul>
+    <li class="imgs mt-3" *ngFor="let result of results">
+      <div class="card">
+        <img class="card-img-top " [src]="result.images.downsized_medium.url" [alt]="result.title">
+      </div>
+    </li>
+  </ul>
+</div>
